@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: system-ui, sans-serif;
+  margin: 40px;
+}
+
+.container {
+  display: flex;
+  gap: 12px;
+  padding: 12px;
+  border: 3px solid midnightblue;
+}
+
+.box {
+  padding: 10px 14px;
+  border: 2px solid cadetblue;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 150ms ease;
+}
+.box:hover {
+  background-color: lightblue;
+}
